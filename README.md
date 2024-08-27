@@ -12,10 +12,10 @@ Welcome to the **Beautiful Code Snippets** repository! This project is a collect
 
 ```plaintext
 ├── README.md
-├── html-snippets.md
-├── css-snippets.md
-├── js-snippets.md
-├── react-snippets.md
-├── tailwindcss-snippets.md
-├── gsap-snippets.md
+├── html.md
+├── css.md
+├── js.md
+├── react.md
+├── tailwindcss.md
+├── gsap.md
 └── assets/
