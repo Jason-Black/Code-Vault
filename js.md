@@ -6,7 +6,7 @@ This file contains a collection of beautiful and reusable JavaScript code snippe
 
 ## 📌 Debouncing a Function
 
-\```bash
+```bash
 function debounce(func, delay) {
   let debounceTimer;
   return function() {
@@ -16,7 +16,7 @@ function debounce(func, delay) {
     debounceTimer = setTimeout(() => func.apply(context, args), delay);
   };
 }
-\```
+```
 
 ### Explanation:
 This snippet creates a debounce function that delays the execution of the passed function until after a specified delay time has elapsed since the last time it was invoked.
@@ -25,7 +25,7 @@ This snippet creates a debounce function that delays the execution of the passed
 
 ## 🌟 Shuffling an Array
 
-\```bash
+```bash
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -33,7 +33,7 @@ function shuffleArray(array) {
   }
   return array;
 }
-\```
+```
 
 ### Explanation:
 This snippet shuffles the elements of an array in place using the Fisher-Yates (Knuth) shuffle algorithm.
@@ -42,11 +42,11 @@ This snippet shuffles the elements of an array in place using the Fisher-Yates (
 
 ## ✨ Deep Clone an Object
 
-\```bash
+```bash
 function deepClone(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
-\```
+```
 
 ### Explanation:
 This snippet creates a deep clone of a given object using `JSON.parse` and `JSON.stringify`. It works well for objects without functions or special data types.
@@ -55,7 +55,7 @@ This snippet creates a deep clone of a given object using `JSON.parse` and `JSON
 
 ## 📏 Throttling a Function
 
-\```bash
+```bash
 function throttle(func, limit) {
   let inThrottle;
   return function() {
@@ -68,7 +68,7 @@ function throttle(func, limit) {
     }
   };
 }
-\```
+```
 
 ### Explanation:
 This snippet creates a throttle function that ensures the passed function is called at most once in a specified time frame, regardless of how many times it’s triggered.
