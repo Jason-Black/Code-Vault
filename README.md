@@ -18,4 +18,6 @@ Welcome to the **Beautiful Code Snippets** repository! This project is a collect
 ├── react.md
 ├── tailwindcss.md
 ├── gsap.md
+├── framer-motion-react.md
+├── tailwindcss-responsive.md
 └── assets/
